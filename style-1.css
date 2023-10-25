@@ -1,0 +1,59 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #555;
+    background-color: beige;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 60em;
+    line-height: 1.5em;
+    padding: 0.5em;
+}
+
+pre {
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+    border-left: 2px solid blue;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url("background.webp");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+  
+header p {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+  
+header p:hover {
+    background:  #e81c4f;
+    color: white;
+}  
